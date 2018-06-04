@@ -1,4 +1,4 @@
-def fib():
+def fib(N):
     ''' all fibonacci'''
     if N == 0 :
         return 1
@@ -6,6 +6,6 @@ def fib():
         return 1
     return fib(N-1) + fib(N-2)
 
-if __name__=="__main":
+if __name__=="__main__":
     for i in range(5):
         print(fib(i))
